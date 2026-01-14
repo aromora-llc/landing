@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "AROMORA - IT Outsourcing & Consulting",
+    "description": "AROMORA - Professional IT outsourcing and consulting services with engineering excellence"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "team": "Team",
+    "why_choose_us": "Why Choose Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AROMORA",
+    "subtitle": "Engineering Excellence",
+    "description": "Delivering cutting-edge IT solutions and consulting services that drive business transformation and technological innovation.",
+    "cta_services": "Our Services",
+    "cta_contact": "Get In Touch"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We provide comprehensive IT solutions tailored to your business needs",
+    "development": {
+      "title": "Software Development",
+      "description": "Custom software solutions built with modern technologies and best practices to meet your specific business requirements."
+    },
+    "cloud": {
+      "title": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure and migration services to optimize your operations and reduce costs."
+    },
+    "consulting": {
+      "title": "IT Consulting",
+      "description": "Strategic technology consulting to help you make informed decisions and optimize your IT infrastructure."
+    },
+    "devops": {
+      "title": "DevOps & Automation",
+      "description": "Streamline your development process with automated CI/CD pipelines and infrastructure as code."
+    }
+  },
+  "projects": {
+    "title": "Featured Project",
+    "description": "Showcasing our latest work and innovative solutions",
+    "featured": {
+      "title": "EQ - Silent Flow",
+      "description": "EQ abstracts presence into a fluid, self-adjusting sequence. With a single scan, participants gain situational awareness, while organizations maintain tempo, balance, and continuity."
+    }
+  },
+  "why_choose_us": {
+    "title": "Why Choose AROMORA",
+    "description": "We combine technical expertise with business acumen to deliver exceptional results",
+    "innovation": {
+      "title": "Innovation First",
+      "description": "We stay ahead of technology trends and implement cutting-edge solutions that give you a competitive advantage."
+    },
+    "expertise": {
+      "title": "Expert Team",
+      "description": "Our highly skilled professionals bring years of experience across various industries and technologies."
+    },
+    "delivery": {
+      "title": "On-Time Delivery",
+      "description": "We follow agile methodologies and maintain transparent communication to ensure projects are delivered on schedule."
+    },
+    "partnership": {
+      "title": "Long-term Partnership",
+      "description": "We build lasting relationships with our clients, providing ongoing support and evolving with your business needs."
+    }
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "description": "The passionate professionals behind AROMORA's success",
+    "founder": {
+      "name": "Marian Stychuk",
+      "role": "Founder & Lead Engineer",
+      "description": "A passionate technology leader with 8+ years of experience in software development, system architecture, and business strategy. Specialized in building scalable solutions that drive digital transformation."
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Ready to transform your business? Let's discuss your project",
+    "email": {
+      "label": "Email"
+    },
+    "phone": {
+      "label": "Phone"
+    },
+    "location": {
+      "label": "Location",
+      "value": "Remote & On-site"
+    },
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Engineering Excellence in IT Solutions",
+    "quick_links": "Quick Links",
+    "follow_us": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

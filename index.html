@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AROMORA - IT Outsourcing & Consulting</title>
+    <meta name="description" content="AROMORA - Professional IT outsourcing and consulting services with engineering excellence">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon placeholder -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <select id="languageSelect">
+            <option value="en" data-lang="en">English</option>
+            <option value="ua" data-lang="ua">Українська</option>
+        </select>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/aromora-logo.png" alt="AROMORA Logo" class="logo">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link" data-i18n="nav.home">Home</a>
+                <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+                <a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a>
+                <a href="#team" class="nav-link" data-i18n="nav.team">Team</a>
+                <a href="#why-choose-us" class="nav-link" data-i18n="nav.why_choose_us">Why Choose Us</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span data-i18n="hero.title">AROMORA</span>
+                        <span class="subtitle" data-i18n="hero.subtitle">Engineering Excellence</span>
+                    </h1>
+                    <p class="hero-description" data-i18n="hero.description">
+                        Delivering cutting-edge IT solutions and consulting services that drive business transformation and technological innovation.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary" data-i18n="hero.cta_services">Our Services</a>
+                        <a href="#contact" class="btn btn-secondary" data-i18n="hero.cta_contact">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-illustration.jpg" alt="IT Solutions" class="hero-img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="services.title">Our Services</h2>
+                <p class="section-description" data-i18n="services.description">
+                    We provide comprehensive IT solutions tailored to your business needs
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-i18n="services.development.title">Software Development</h3>
+                    <p data-i18n="services.development.description">
+                        Custom software solutions built with modern technologies and best practices to meet your specific business requirements.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 data-i18n="services.cloud.title">Cloud Solutions</h3>
+                    <p data-i18n="services.cloud.description">
+                        Scalable cloud infrastructure and migration services to optimize your operations and reduce costs.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-i18n="services.consulting.title">IT Consulting</h3>
+                    <p data-i18n="services.consulting.description">
+                        Strategic technology consulting to help you make informed decisions and optimize your IT infrastructure.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 data-i18n="services.devops.title">DevOps & Automation</h3>
+                    <p data-i18n="services.devops.description">
+                        Streamline your development process with automated CI/CD pipelines and infrastructure as code.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="projects.title">Featured Project</h2>
+                <p class="section-description" data-i18n="projects.description">
+                    Showcasing our latest work and innovative solutions
+                </p>
+            </div>
+            <div class="project-showcase">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-showcase.jpg" alt="Featured Project" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">.Net</span>
+                                <span class="tech-tag">Azure</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.featured.title">EQ - Silent Flow</h3>
+                        <p class="project-description" data-i18n="projects.featured.description">
+                            EQ abstracts presence into a fluid, self-adjusting sequence. With a single scan, participants gain situational awareness, while organizations maintain tempo, balance, and continuity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="why_choose_us.title">Why Choose AROMORA</h2>
+                <p class="section-description" data-i18n="why_choose_us.description">
+                    We combine technical expertise with business acumen to deliver exceptional results
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 data-i18n="why_choose_us.innovation.title">Innovation First</h3>
+                    <p data-i18n="why_choose_us.innovation.description">
+                        We stay ahead of technology trends and implement cutting-edge solutions that give you a competitive advantage.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-i18n="why_choose_us.expertise.title">Expert Team</h3>
+                    <p data-i18n="why_choose_us.expertise.description">
+                        Our highly skilled professionals bring years of experience across various industries and technologies.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 data-i18n="why_choose_us.delivery.title">On-Time Delivery</h3>
+                    <p data-i18n="why_choose_us.delivery.description">
+                        We follow agile methodologies and maintain transparent communication to ensure projects are delivered on schedule.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 data-i18n="why_choose_us.partnership.title">Long-term Partnership</h3>
+                    <p data-i18n="why_choose_us.partnership.description">
+                        We build lasting relationships with our clients, providing ongoing support and evolving with your business needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="team.title">Meet Our Team</h2>
+                <p class="section-description" data-i18n="team.description">
+                    The passionate professionals behind AROMORA's success
+                </p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-founder.jpg" alt="Founder" class="member-img">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/stmarik/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/stmarian" class="social-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h3 class="member-name" data-i18n="team.founder.name">Marian Stychuk</h3>
+                        <p class="member-role" data-i18n="team.founder.role">Founder & Lead Engineer</p>
+                        <p class="member-description" data-i18n="team.founder.description">
+                            A passionate technology leader with 8+ years of experience in software development, system architecture, and business strategy. Specialized in building scalable solutions that drive digital transformation.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Full-Stack Development</span>
+                            <span class="skill-tag">Cloud Architecture</span>
+                            <span class="skill-tag">DevOps</span>
+                            <span class="skill-tag">Team Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="contact.title">Get In Touch</h2>
+                <p class="section-description" data-i18n="contact.description">
+                    Ready to transform your business? Let's discuss your project
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.email.label">Email</h4>
+                            <p><a href="mailto:support@aromora.com">support@aromora.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.phone.label">Phone</h4>
+                            <p><a href="tel:+380989794278">+380 (98) 979-4278</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.location.label">Location</h4>
+                            <p data-i18n="contact.location.value">Remote & On-site</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name" data-i18n="contact.form.name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-i18n="contact.form.email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject" data-i18n="contact.form.subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <label for="message" data-i18n="contact.form.message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/aromora-logo.png" alt="AROMORA Logo" class="logo">
+                    <p data-i18n="footer.description">Engineering Excellence in IT Solutions</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.quick_links">Quick Links</h4>
+                    <a href="#home" data-i18n="nav.home">Home</a>
+                    <a href="#services" data-i18n="nav.services">Services</a>
+                    <a href="#projects" data-i18n="nav.projects">Projects</a>
+                    <a href="#team" data-i18n="nav.team">Team</a>
+                </div>
+                <div class="footer-social">
+                    <h4 data-i18n="footer.follow_us">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/stmarik/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/aromora-llc" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">YEAR</span> AROMORA LLC. <span data-i18n="footer.rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
